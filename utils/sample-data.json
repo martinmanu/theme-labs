@@ -1,0 +1,19 @@
+[
+    {
+      "themeName": "light",
+      "colors": {
+        "background": "#ffffff",
+        "color": "#333333",
+        "primary": "#007bff"
+      }
+    },
+    {
+      "themeName": "dark",
+      "colors": {
+        "background": "#000000",
+        "color": "#ffffff",
+        "primary": "#ff5733"
+      }
+    }
+  ]
+  

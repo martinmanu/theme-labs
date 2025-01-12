@@ -1,0 +1,38 @@
+/* light theme */
+[data-theme="light"] {
+  --background: #ffffff;
+  --color: #333333;
+  --primary: #007bff;
+}
+
+/* dark theme */
+[data-theme="dark"] {
+  --background: #000000;
+  --color: #ffffff;
+  --primary: #ff5733;
+}
+
+.theme-lab-background {
+  color: var(--background);
+}
+
+.theme-lab-color {
+  color: var(--color);
+}
+
+.theme-lab-primary {
+  color: var(--primary);
+}
+
+.theme-lab-background {
+  color: var(--background);
+}
+
+.theme-lab-color {
+  color: var(--color);
+}
+
+.theme-lab-primary {
+  color: var(--primary);
+}
+
