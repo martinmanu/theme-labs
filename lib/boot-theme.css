@@ -12,27 +12,27 @@
   --primary: #ff5733;
 }
 
-.theme-lab-background {
+.boot-theme-background {
   color: var(--background);
 }
 
-.theme-lab-color {
+.boot-theme-color {
   color: var(--color);
 }
 
-.theme-lab-primary {
+.boot-theme-primary {
   color: var(--primary);
 }
 
-.theme-lab-background {
+.boot-theme-background {
   color: var(--background);
 }
 
-.theme-lab-color {
+.boot-theme-color {
   color: var(--color);
 }
 
-.theme-lab-primary {
+.boot-theme-primary {
   color: var(--primary);
 }
 
