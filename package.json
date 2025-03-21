@@ -1,10 +1,21 @@
 {
-  "name": "theme-lab",
-  "version": "1.0.0",
-  "description": "ThemeLab is a lightweight, configurable theming library to help you manage and apply themes in your app. Developed for easy use in any frontend framework or libraries with direct focus on development ease in setting up a fully fledged configurable themes for your application.",
+  "name": "boot-theme",
+  "version": "1.2.8",
+  "description": "Boot theme is a lightweight, configurable theming library to help you manage and apply themes in your app. Developed for easy use in any frontend framework or libraries with direct focus on development ease in setting up a fully fledged configurable themes for your application.",
   "main": "index.js",
+  "files": [
+    "lib/boot-theme.css",
+    "lib/*.js",
+    "server.js",
+    "bin/",
+    "ui/"
+  ],
   "scripts": {
-    "test": "node utils/test.js"
+    "test": "node utils/test.js",
+    "start-ui": "node server.js"
+  },
+  "bin": {
+    "theme-lab-ui": "./bin/theme-lab-ui.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +32,10 @@
   "license": "MIT",
   "devDependencies": {
     "jsdom": "^26.0.0"
+  },
+  "dependencies": {
+    "boot-theme": "^1.2.4",
+    "express": "^4.21.2",
+    "open": "^10.1.0"
   }
 }

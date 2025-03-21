@@ -1,38 +1,20 @@
-/* light theme */
-[data-theme="light"] {
-  --background: #ffffff;
-  --color: #333333;
-  --primary: #007bff;
+/* Light theme */
+[data-theme="Light"] {
+  --primary-bg: #66ff69;
+  --primary-color: #000000;
+  --secondary-color: #d21919;
+  --padding-container1: 10px;
+  --margin-x: 1em;
+  --bx-1: 8px 6px 1px #762828;
 }
 
-/* dark theme */
-[data-theme="dark"] {
-  --background: #000000;
-  --color: #ffffff;
-  --primary: #ff5733;
-}
-
-.theme-lab-background {
-  color: var(--background);
-}
-
-.theme-lab-color {
-  color: var(--color);
-}
-
-.theme-lab-primary {
-  color: var(--primary);
-}
-
-.theme-lab-background {
-  color: var(--background);
-}
-
-.theme-lab-color {
-  color: var(--color);
-}
-
-.theme-lab-primary {
-  color: var(--primary);
+/* Dark theme */
+[data-theme="Dark"] {
+  --primary-bg: #fe6767;
+  --primary-color: #71fc27;
+  --secondary-color: #0f4bff;
+  --padding-container1: 23em;
+  --margin-x: 23%;
+  --bx-1: 23px 23px 23px #f52424;
 }
 
