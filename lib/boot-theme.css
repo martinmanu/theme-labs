@@ -1,0 +1,38 @@
+/* light theme */
+[data-theme="light"] {
+  --background: #ffffff;
+  --color: #333333;
+  --primary: #007bff;
+}
+
+/* dark theme */
+[data-theme="dark"] {
+  --background: #000000;
+  --color: #ffffff;
+  --primary: #ff5733;
+}
+
+.boot-theme-background {
+  color: var(--background);
+}
+
+.boot-theme-color {
+  color: var(--color);
+}
+
+.boot-theme-primary {
+  color: var(--primary);
+}
+
+.boot-theme-background {
+  color: var(--background);
+}
+
+.boot-theme-color {
+  color: var(--color);
+}
+
+.boot-theme-primary {
+  color: var(--primary);
+}
+
