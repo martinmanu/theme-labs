@@ -51,7 +51,9 @@ To use the generated theme styles, you need to include the CSS file in your proj
 Add the following <link> tag in your HTML file to include the CSS:
 
 ```html
-<link rel="stylesheet" href="node_modules/theme-labs/lib/theme-lab.css">
+<!-- Not needed after version 2.0.0 -->
+<link rel="stylesheet" href="node_modules/boot-theme/lib/boot-theme-classes.css">
+<link rel="stylesheet" href="node_modules/boot-theme/lib/boot-theme.css">
 ```
 If you're using a build tool like Webpack or Vite, it may automatically resolve the node_modules path.
 
@@ -60,7 +62,12 @@ If you're using a build tool like Webpack or Vite, it may automatically resolve 
 In Angular projects, add the CSS path to the angular.json configuration file under the styles section:
 
 ```Css
-"styles": ["node_modules/theme-labs/lib/theme-lab.css"]
+/*Not needed after version 2.0.0 */
+import 'theme-labs/lib/theme-lab.css';
+import 'theme-labs/lib/theme-lab.css';
+/* OR */
+"styles": ["node_modules/boot-theme/lib/boot-theme-classes.css"]
+"styles": ["node_modules/boot-theme/lib/boot-theme.css"]
 ```
 This ensures that the theme styles are bundled into your Angular application during the build process.
 
@@ -69,7 +76,9 @@ This ensures that the theme styles are bundled into your Angular application dur
 In React applications, you can import the CSS file directly in your entry file (e.g., App.js or index.js):
 
 ```js
-import 'theme-labs/lib/theme-lab.css';
+//Not needed after version 2.0.0
+import 'boot-theme/lib/boot-theme-classes.css';
+import 'boot-theme/lib/boot-theme.css';
 ```
 
 Alternatively, you can add it in your index.html file using a <link> tag, as shown in the HTML setup.
@@ -84,7 +93,7 @@ Utility Classes: Classes prefixed with .boot-theme- that allow easy application 
 
 Example Usage:
 
-```js
+```HTML
 <div class="boot-theme-primary">Themed Text</div>
 <div class="boot-theme-box-shadow">Themed Shadow</div>
 ```

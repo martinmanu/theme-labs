@@ -1,12 +1,15 @@
 {
   "name": "boot-theme",
-  "version": "1.2.8",
+  "version": "2.0.1",
   "description": "Boot theme is a lightweight, configurable theming library to help you manage and apply themes in your app. Developed for easy use in any frontend framework or libraries with direct focus on development ease in setting up a fully fledged configurable themes for your application.",
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "lib/boot-theme.css",
     "lib/*.js",
+    "lib/*.css",
     "server.js",
+    "index.d.ts",
     "bin/",
     "ui/"
   ],
@@ -26,7 +29,13 @@
     "lab",
     "frontend",
     "theming",
-    "npm"
+    "npm",
+    "Angular",
+    "React",
+    "Javascript",
+    "TypeScript",
+    "Boot-theme",
+    "Swagger"
   ],
   "author": "martinmanu",
   "license": "MIT",
@@ -37,5 +46,10 @@
     "boot-theme": "^1.2.4",
     "express": "^4.21.2",
     "open": "^10.1.0"
+  },
+  "browser": {
+    "fs": false,
+    "jsdom": false,
+    "path": false
   }
 }
