@@ -1,19 +1,100 @@
 [
-    {
-      "themeName": "light",
-      "colors": {
-        "background": "#ffffff",
-        "color": "#333333",
-        "primary": "#007bff"
+  {
+    "themeName": "Light",
+    "expanded": false,
+    "values": [
+      {
+        "keyName": "primary-bg",
+        "type": "Colors",
+        "subType": "background-color",
+        "value": "#66ff69"
+      },
+      {
+        "keyName": "primary-color",
+        "type": "Colors",
+        "subType": "color",
+        "value": "#000000"
+      },
+      {
+        "keyName": "secondary-color",
+        "type": "Colors",
+        "value": "#d21919",
+        "subType": "color"
+      },
+      {
+        "keyName": "padding-container1",
+        "type": "Spacing & Sizing",
+        "subType": "padding",
+        "value": "10px",
+        "numericValue": 10,
+        "unit": "px"
+      },
+      {
+        "keyName": "margin-x",
+        "type": "Spacing & Sizing",
+        "subType": "margin",
+        "value": "1em",
+        "numericValue": 1,
+        "unit": "em"
+      },
+      {
+        "keyName": "bx-1",
+        "type": "Box Shadow",
+        "shadowX": 8,
+        "value": "8px 6px 1px #762828",
+        "shadowY": 6,
+        "blur": 1,
+        "shadowColor": "#762828"
       }
-    },
-    {
-      "themeName": "dark",
-      "colors": {
-        "background": "#000000",
-        "color": "#ffffff",
-        "primary": "#ff5733"
+    ]
+  },
+  {
+    "themeName": "Dark",
+    "expanded": true,
+    "values": [
+      {
+        "keyName": "primary-bg",
+        "type": "Colors",
+        "subType": "background-color",
+        "value": "#fe6767"
+      },
+      {
+        "keyName": "primary-color",
+        "type": "Colors",
+        "subType": "color",
+        "value": "#71fc27"
+      },
+      {
+        "keyName": "secondary-color",
+        "type": "Colors",
+        "subType": "color",
+        "value": "#0f4bff"
+      },
+      {
+        "keyName": "padding-container1",
+        "type": "Spacing & Sizing",
+        "subType": "padding",
+        "value": "23em",
+        "numericValue": 23,
+        "unit": "em"
+      },
+      {
+        "keyName": "margin-x",
+        "type": "Spacing & Sizing",
+        "subType": "margin",
+        "value": "23%",
+        "numericValue": 23,
+        "unit": "%"
+      },
+      {
+        "keyName": "bx-1",
+        "type": "Box Shadow",
+        "shadowX": 23,
+        "value": "23px 23px 23px #f52424",
+        "shadowY": 23,
+        "blur": 23,
+        "shadowColor": "#f52424"
       }
-    }
-  ]
-  
+    ]
+  }
+]

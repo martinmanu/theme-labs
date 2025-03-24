@@ -1,9 +1,7 @@
-const ThemeLab = require('./lib/theme-lab');
-const themeConfig = require('./utils/sample-data.json');
+const themeLab = require('./lib/theme-lab'); // Already an instance
 
-const themeLab = new ThemeLab(themeConfig);
 module.exports = {
-    applyTheme: (themeName) => themeLab.applyTheme(themeName),
-    generateThemeCSS: () => themeLab.generateThemeCSS(),
-    initialize: () => themeLab.initialize(),
-  };
+  initialize: (themeData) => themeLab.initialize(themeData),
+  applyTheme: (themeName) => themeLab.applyTheme(themeName),
+  generateThemeCSS: () => themeLab.generateClassThemeCSS()
+};
